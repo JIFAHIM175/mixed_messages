@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 30px;
+}
+
+#message-container {
+    display: inline-block;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#message {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
